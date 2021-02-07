@@ -1,7 +1,6 @@
 import styled from 'styled-components'
 import db from '../db.json';
 import Footer from '../src/components/Footer';
-import GitHubCorner from '../src/components/GithubCorner';
 import QuizBackground from '../src/components/QuizBackground';
 import Widget from '../src/components/Widget';
 
@@ -45,7 +44,6 @@ export default function Home() {
         </Widget>
         <Footer />
       </QuizContainer>
-      <GitHubCorner projectUrl='https://github.com/tarfao/dbquiz' />
     </QuizBackground>
   )
 }
